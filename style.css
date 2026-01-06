@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.heros{
+    
+    background-color: blue;
+    height: 100vh;
+}
+
+
+
+.hero1{
+    background-color: rgb(122, 233, 11);
+    height: 8vh;
+    align-items: center;
+    justify-content:space-between ;
+    display: flex;
+
+}
+
+.LOGO{
+    margin: 20px;
+    font-size: 200px;
+    
+}
+.LOGO a{
+    text-decoration:none ;
+
+}
+
+.hero1_child{
+    align-items: center;
+    justify-content:space-between ;
+    display: flex;
+    gap: 230px;
+    margin: 500px;
+    background-color: rgb(235, 130, 179);
+    font-size: 100px;
+    }
+
+.hero1_child a{
+    text-decoration:none ;
+
+}
+
+
+
+.hero2{
+    background-color: aqua;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.tentang{
+    background-color: blue;
+    height: 65vh;
+    width: 50vw;
+}
+.isi{
+    margin: 200px;
+}
+
+.tentang .isi h1{
+    font-size: 200px;
+    
+}
+.tentang .isi p{
+    font-size: 30px;
+   
+}
+.poto{
+    height: 65vh;
+    width:50vw;
+    background-color: rgba(100, 149, 237, 0.8);
+}
+
+
+.hero3{
+    background-color: salmon;
+    height: 15vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:250px;
+    font-size: 90px;
+    font-weight: 200;
+}
+img{
+    height: auto;
+    width: 150px;
+    
+   
+}
+
+
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+
+.img2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+
+}.img3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+
+}.img4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+
+}
+
+
+
