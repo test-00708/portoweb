@@ -5,39 +5,41 @@
 
 .heros{
     
-    background-color: blue;
+    background-color: rgb(102, 58, 9);
     height: 100vh;
+    width: 100vw;
 }
 
 
 
-.hero1{
+.hero1{ 
     background-color: rgb(122, 233, 11);
     height: 8vh;
     align-items: center;
-    justify-content:space-between ;
+    justify-content:space-between;
     display: flex;
 
 }
 
 .LOGO{
+    
+    font-size: 45px;
+    background-color: hotpink;
     margin: 20px;
-    font-size: 200px;
     
 }
 .LOGO a{
     text-decoration:none ;
 
 }
-
 .hero1_child{
     align-items: center;
     justify-content:space-between ;
     display: flex;
-    gap: 230px;
-    margin: 500px;
+    gap: 90px;
+    margin: 100px;
     background-color: rgb(235, 130, 179);
-    font-size: 100px;
+    font-size: 30px;
     }
 
 .hero1_child a{
@@ -47,9 +49,10 @@
 
 
 
+
 .hero2{
     background-color: aqua;
-    height: 65vh;
+    height: 68vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,41 +60,54 @@
 }
 .tentang{
     background-color: blue;
-    height: 65vh;
+    height: 68vh;
     width: 50vw;
 }
 .isi{
     margin: 200px;
 }
-
-.tentang .isi h1{
-    font-size: 200px;
-    
-}
-.tentang .isi p{
-    font-size: 30px;
-   
-}
 .poto{
-    height: 65vh;
+    height: 68vh;
     width:50vw;
     background-color: rgba(100, 149, 237, 0.8);
 }
 
+.tentang .isi h1{
+    font-size: 35px;
+    
+}
+.tentang .isi p{
+    font-size: 15px;
+   
+}
+
 
 .hero3{
-    background-color: salmon;
-    height: 15vh;
-     display: flex;
+    background-color: rgb(3, 235, 235);
+    height: 4vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap:250px;
-    font-size: 90px;
+}
+.hero3 p{
+    font-size: 27px;
+}
+
+
+
+.hero4{
+    background-color: salmon;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:120px;
+    font-size: 30px;
     font-weight: 200;
 }
 img{
     height: auto;
-    width: 150px;
+    width: 70px;
     
    
 }
@@ -102,7 +118,7 @@ img{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
+  gap: 10px;
 }
 
 
@@ -110,21 +126,38 @@ img{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
+  gap: 10px;
 
 }.img3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
+  gap: 10px;
 
 }.img4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
+  gap: 10px;
 
 }
 
 
+.hero5{
+    background-color: rgb(3, 235, 235);
+    height: 4vh;
+}
 
+
+.hero6{
+    background-color: rgb(255, 0, 212);
+    height:4vh ;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero6 a{
+    text-decoration:none;
+}
